@@ -1,5 +1,5 @@
 <!--Template Name: vacayhome
-File Name: home.html
+File Name: about.html
 Author Name: ThemeVault
 Author URI: http://www.themevault.net/
 License URI: http://www.themevault.net/license/-->
@@ -53,10 +53,9 @@ License URI: http://www.themevault.net/license/-->
                                     </div>
                                     <div class="collapse navigation navbar-collapse navbar-ex1-collapse remove-space">
                                         <ul class="list-unstyled nav1 cl-effect-10">
-                                            <li><a  data-hover="Home" class="active"><span>Home</span></a></li>
-                                            <li><a data-hover="ABOUT"  href="about.php"><span>ABOUT</span></a></li>
+                                            <li><a data-hover="Home" href="index.php"><span>Home</span></a></li>
+                                            <li><a data-hover="About"  class="active"><span>About</span></a></li>
                                         </ul>
-
                                     </div>
                                 </nav>
                             </div>
@@ -64,47 +63,31 @@ License URI: http://www.themevault.net/license/-->
                     </div>
                 </div>
             </header>
-
-
-            <!--end-->
-            <div id="myCarousel1" class="carousel slide" data-ride="carousel"> 
-                <!-- Indicators -->
-
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel1" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel1" data-slide-to="1"></li>
-                    <li data-target="#myCarousel1" data-slide-to="2"></li>
-                    <li data-target="#myCarousel1" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active"> <img src="images/banner.jpg" style="width:100%;" alt="First slide">
-                        <
-                        <div class="carousel-caption">
-                            <h1><br> </h1>
+            <section class="about-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 about-right">
+                            <td style="border:1px solid #000000;" align="center"><img src="images/foto.jpg" width="300" /><br /></td>
+                            <p><h3></h3></p>
+                            <span></span>
+                            <ul class="list-unstyled list-inline">
+                            </ul>
+                        </div>
+                        <div class="col-md-8 about-right">
+                            <p><h3>Data Diri Saya</h3></p>
+                            <p>
+                                Nama : Rio Bagas Pamungkas
+                            </p>
+                            <p>
+                                NIM : 195410232
+                            </p>
+                            <p>
+                                Tempat Lahir : Yogyakarta
+                            </p>
                         </div>
                     </div>
-                    <div class="item"> <img src="images/banner2.jpg" style="width:100%;" alt="Second slide">
-                        <div class="carousel-caption">
-                            <h1><br> </h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="images/banner3.jpg" style="width:100%;" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h1><br> </h1>
-                        </div>
-                    </div>
-                    <div class="item"> <img src="images/banner4.jpg" style="width:100%;" alt="Third slide">
-                        <div class="carousel-caption">
-                            <h1><br> </h1>
-                        </div>
-                    </div>
-
-                </div>
-                <a class="left carousel-control" href="#myCarousel1" data-slide="prev"> <img src="images/icons/left-arrow.png" onmouseover="this.src = 'images/icons/left-arrow-hover.png'" onmouseout="this.src = 'images/icons/left-arrow.png'" alt="left"></a>
-                <a class="right carousel-control" href="#myCarousel1" data-slide="next"><img src="images/icons/right-arrow.png" onmouseover="this.src = 'images/icons/right-arrow-hover.png'" onmouseout="this.src = 'images/icons/right-arrow.png'" alt="left"></a>
+                <div class="clearfix"> </div>
             </div>
+        </section>
     </body>
 </html>
-
-
-            
